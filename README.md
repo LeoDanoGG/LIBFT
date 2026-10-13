@@ -1,4 +1,5 @@
 # LIBFT
+<img src="lib.png" style="width:10rem"/>
 
 *This project has been created as part of the curriculum of 42 by legomez*
 
