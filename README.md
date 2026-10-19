@@ -1,7 +1,7 @@
+*This project has been created as part of the curriculum of 42 by legomez*
+
 # LIBFT
 <img src="lib.png" style="width:10rem"/>
-
-*This project has been created as part of the curriculum of 42 by legomez*
 
 ## Description
 **Libft** is our first project on the common core cursus in 42.
