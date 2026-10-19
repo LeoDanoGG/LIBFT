@@ -6,7 +6,7 @@
 /*   By: legomez <legomez@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 15:53:28 by legomez           #+#    #+#             */
-/*   Updated: 2026/10/05 15:25:00 by legomez          ###   ########.fr       */
+/*   Updated: 2026/10/19 12:33:34 by legomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,5 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		c[i] = s2[i - l1];
 		i++;
 	}
-	c[i] = '\0';
 	return (c);
 }

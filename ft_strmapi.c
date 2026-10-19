@@ -6,7 +6,7 @@
 /*   By: legomez <legomez@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 15:32:49 by legomez           #+#    #+#             */
-/*   Updated: 2026/10/06 13:18:17 by legomez          ###   ########.fr       */
+/*   Updated: 2026/10/19 12:33:47 by legomez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,5 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 		c[i] = f(i, c[i]);
 		i++;
 	}
-	c[i] = '\0';
 	return (c);
 }
