@@ -52,7 +52,7 @@ int				ft_tolower(int c);
 
 /* int control */
 int				ft_atoi(const char *src);
-char			*ft_itoa(int n);
+char			*ft_itoa(long n);
 void			ft_putnbr_fd(int n, int fd);
 
 /* str control */
