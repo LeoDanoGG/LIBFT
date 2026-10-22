@@ -15,7 +15,7 @@
 /* int control */
 static int	ft_count(long n1)
 {
-	size_t	num;
+	long	num;
 
 	num = 0;
 	if (n1 != 0)
@@ -34,10 +34,10 @@ static int	ft_count(long n1)
 	return (num);
 }
 
-char	*ft_itoa(int n)
+char	*ft_itoa(long n)
 {
 	char	*c;
-	size_t	num;
+	long	num;
 	int		neg;
 	long	n1;
 
