@@ -14,12 +14,18 @@
 
 void	*ft_calloc(size_t num, size_t size)
 {
-	void	*call;
+	void			*call;
+	unsigned char	*zero;
+	size_t			len;
 
+	zero = NULL;
 	call = malloc(num * size);
 	if (call != NULL)
 	{
-		ft_bzero(call, num * size);
+		zero = call;
+		len = (num * size);
+		while (len-- > 0)
+			zero[len] = 0;
 	}
-	return (call);
+	return (zero);
 }
